@@ -71,10 +71,14 @@ dependencies {
     // Dagger Hilt
     implementation("com.google.dagger:hilt-android:2.40.5")
     //kapt("com.google.dagger:hilt-android-compiler:2.40.5")
-
-    // Dagger Hilt için Android Extensions
     implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
-   // kapt("androidx.hilt:hilt-compiler:1.0.0-beta01")
+    //kapt("androidx.hilt:hilt-compiler:1.0.0-beta01")
 
+    // Retrofit 2
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // Gson
+    implementation("com.google.code.gson:gson:2.8.8")
 
 }
