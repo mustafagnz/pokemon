@@ -1,6 +1,6 @@
 package com.example.pokemon.data.remote.responses
 
-data class Versions(
+/*data class Versions(
     val generation-i: Generationİ,
     val generation-ii: Generationİi,
     val generation-iii: Generationİii,
@@ -9,4 +9,4 @@ data class Versions(
     val generation-vi: GenerationVi,
     val generation-vii: GenerationVii,
     val generation-viii: GenerationViii
-)
+)*/

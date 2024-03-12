@@ -1,6 +1,6 @@
 package com.example.pokemon.data.remote.responses
 
-data class Sprites(
+/*data class Sprites(
     val back_default: String,
     val back_female: Any,
     val back_shiny: String,
@@ -11,4 +11,4 @@ data class Sprites(
     val front_shiny_female: Any,
     val other: Other,
     val versions: Versions
-)
+)*/

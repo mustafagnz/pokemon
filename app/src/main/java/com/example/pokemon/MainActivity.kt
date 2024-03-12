@@ -17,6 +17,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.pokemon.data.remote.responses.PokemonList
+import com.example.pokemon.pokemonlist.PokemonListScreen
 import com.example.pokemon.ui.theme.PokemonTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -28,7 +30,7 @@ class MainActivity : ComponentActivity() {
             val navController = rememberNavController()
             NavHost(navController = navController, startDestination = "pokemon_list_screen") {
                 composable("pokemon_list_screen") {
-
+                    PokemonListScreen(navController = navController)
                 }
                 //Detay sayfasına göndereceğimiz bilgileri argumentste liste şeklinde belirliyoruz.
                 composable("pokemon_detail_screen/{dominantColor}/{pokemonName}",
