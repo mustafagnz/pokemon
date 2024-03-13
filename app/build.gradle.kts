@@ -60,6 +60,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.volley)
+    implementation(libs.androidx.palette.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -80,5 +82,10 @@ dependencies {
 
     // Gson
     implementation("com.google.code.gson:gson:2.8.8")
+
+    implementation("io.coil-kt:coil-compose:1.6.3")
+
+
+
 
 }
